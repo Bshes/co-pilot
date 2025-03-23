@@ -87,6 +87,7 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
+    margin-top: 1rem;
 }
 
 .cta-button:hover {
@@ -101,7 +102,7 @@ body {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem 0;
 }
@@ -129,7 +130,7 @@ body {
 
 .results-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     padding: 2rem 0;
 }
@@ -155,8 +156,8 @@ body {
 }
 
 .timeline {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
 
